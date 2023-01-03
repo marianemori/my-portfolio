@@ -1,10 +1,10 @@
 import { VStack } from '@chakra-ui/react'
 import Head from 'next/head'
-import { About } from './src/components/About'
-import { Banner } from './src/components/Banner'
-import { Header } from './src/components/Header'
-import { SkillList } from './src/components/SkillList'
-import { WorkList } from './src/components/WorkList'
+import { About } from '../src/components/About'
+import { Banner } from '../src/components/Banner'
+import { Header } from '../src/components/Header'
+import { SkillList } from '../src/components/SkillList'
+import { WorkList } from '../src/components/WorkList'
 
 export default function Home() {
   return (
