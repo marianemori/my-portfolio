@@ -1,3 +1,4 @@
+import { VStack } from '@chakra-ui/react'
 import Head from 'next/head'
 import { About } from './src/components/About'
 import { Banner } from './src/components/Banner'
@@ -13,12 +14,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <Header />
-      <Banner/>
-      <About/>
-      <WorkList/>
-      <SkillList/>
-      <Header />
+        <VStack>
+          <Header />
+          <Banner />
+          <About />
+          <WorkList />
+          <SkillList />
+          <Header />
+        </VStack>
       </main>
     </>
   )

@@ -17,14 +17,15 @@ export const WorkCard: React.FC<WorkCardProps> = ({
   link }) => {
   return (
     <Container maxW={'container.xl'} borderRadius={'lg'} boxShadow='2xl' bgColor="#2E3239" p={5}>
-      <HStack gap={6} >
+      <HStack gap={6}   >
         <Image src={imageSrc} alt={alt} h={70} w={70} borderRadius={'lg'} ></Image>
         <VStack align={"start"} gap={2}>
-          <Heading size={"md"}>{title}</Heading>
-          <Text>{description}</Text>
+          <Heading size={"sm"} fontWeight={'semibold'}>{title}</Heading>
+          <Text fontSize={'smaller'}>{description}</Text>
           <Button
             color={'#FD707F'}
-            p={6}
+            p={4}
+            fontSize={'sm'}
             onClick={() => {
               window.location.href = link;
             }}>Saiba mais</Button>
