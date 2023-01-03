@@ -20,9 +20,10 @@ export const Banner: React.FC = () => {
             <Text fontSize={20} fontWeight={"medium"} paddingBottom={8}>
               no Grupo Card
             </Text>
-            <Button  onClick={() => {
+            <Button onClick={() => {
               window.location.href = "https://drive.google.com/file/d/1D5827EjEFM9YzgTxcN07tBR7ZIO-n7qH/view?usp=share_link";
-            }} color={'#71C1E1'} p={5} >Currículo</Button>
+            }} colorScheme={'teal'} 
+              p={5} >Currículo</Button>
           </VStack>
 
           <Image src={MyImage.src} display={{ base: "none", md: "flex" }}

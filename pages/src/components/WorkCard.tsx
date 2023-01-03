@@ -23,7 +23,7 @@ export const WorkCard: React.FC<WorkCardProps> = ({
           <Heading size={"sm"} fontWeight={'semibold'}>{title}</Heading>
           <Text fontSize={'smaller'}>{description}</Text>
           <Button
-            color={'#FD707F'}
+            colorScheme={'teal'}
             p={4}
             fontSize={'sm'}
             onClick={() => {

@@ -5,7 +5,7 @@ import { WorkCard, WorkCardProps } from "./WorkCard";
 export const WorkList: React.FC = () => {
   return (
     <Container maxW={"container.xl"} >
-      <HStack justify={"space-between"} >
+      <HStack justify={"space-between"} paddingBottom={20}>
         <VStack justify={"space-between"} align={['center', 'start']} gap={5}>
           <Text fontSize={36} fontWeight={"bold"} color={'#FE479A'} >
             trabalhos.
